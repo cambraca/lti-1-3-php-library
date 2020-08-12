@@ -12,7 +12,7 @@ class JWKS_Endpoint {
         $this->keys = $keys;
     }
 
-    public static function new($keys) {
+    public static function create($keys) {
         return new JWKS_Endpoint($keys);
     }
 
